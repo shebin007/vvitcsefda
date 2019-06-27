@@ -1,3 +1,4 @@
+
 /* Theme Name: Tripaco - Responsive Coming Soon Template
    Author: Krishthemes77
    Author e-mail: themesbykrish@gmail.com
@@ -20,6 +21,77 @@
     11) Typed Demo
     12) Video-Backgruond
 ================ TABLE OF CONTENTS ================*/
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 65px;
+}
+
+.team-members:last-child {
+  margin-bottom: 0px;
+}
+
+.team-member {
+  min-width: 15%;
+  margin: 8px 5px;
+}
+
+.team-member a {
+  text-decoration: none;
+  color: black;
+}
+
+.team-members>h4 {
+  display: block;
+  width: 100%;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.team-members>p {
+  width: 100%;
+}
+
+.team-member>h5,
+.team-member>a>h5 {
+  padding: 0;
+  margin: 0;
+  color: #2c2c2c;
+  font-size: 2.2rem;
+}
+
+.team-member>p {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
+  color: #777;
+}
+
+.blog-insert {
+  max-width: 100%;
+  text-align: center;
+  font-size: 0;
+}
+.blog-insert > * {
+  display: inline-block;
+  border: solid 4px #fff;
+  box-shadow: 0 0 20px #333;
+}
+.blog-insert img {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.blog-insert a img {
+  width: 100%;
+}
 
 
 body {
@@ -137,7 +209,7 @@ body {
   font-family: Poppins, sans-serif;
 }
 .front:before {
-    
+
   position: absolute;
   display: block;
   content: '';
