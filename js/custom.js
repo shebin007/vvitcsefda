@@ -274,7 +274,7 @@ function($) {
 
             //init full page
             $this.$fullPageEl.fullpage({
-                anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', '5thPage', '6thPage'],
+                anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage'],
                 menu: '#menu',
                 scrollingSpeed: 800,
                 autoScrolling: true,
@@ -285,7 +285,7 @@ function($) {
                 paddingBottom: '80px',
                 navigation: true,
                 navigationPosition: 'right',
-                navigationTooltips: ['Home', 'About', 'Speakers','Speakers','VVIT','Location'],
+                navigationTooltips: ['Home', 'About', 'Speakers','Speakers','VVIT','Location', 'Co-Ordinators'],
                 responsiveWidth: 1100,
             });
             
